@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="EsetDevCon"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EsetDevCon">
+				<Option output="/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/EsetDevCon" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/Makefile&quot;  VERBOSE=1 EsetDevCon"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EsetDevCon/fast">
+				<Option output="/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/EsetDevCon" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/../../../../include/c++/10.1.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/10.1.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j6 -f &quot;/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/Makefile&quot;  VERBOSE=1 EsetDevCon/fast"/>
+					<CompileFile command="/usr/bin/make -j6 -f &quot;/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j6 -f &quot;/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j6 -f &quot;/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/AdressIndexer/AdressIndex.cpp">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/AdressIndexer/AdressIndex.h">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/AdressIndexer/AdressQueue.h">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/Arguments/Args.cpp">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/Arguments/Args.h">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/Arguments/InputArgsIndexes.h">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/Arguments/Limits.h">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/Arguments/LimitsException.cpp">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/Arguments/LimitsException.h">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/FileSorter/AdressParser.h">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/FileSorter/Directory.cpp">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/FileSorter/Directory.h">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/KeyFinder/FileIterator.h">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/KeyFinder/FileParser.cpp">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/KeyFinder/FileParser.h">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/KeyFinder/FileReader.cpp">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/KeyFinder/FileReader.h">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/KeyFinder/ParserBuffer/ParserBuffer.h">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/KeyFinder/ParsingResult.cpp">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/KeyFinder/ParsingResult.h">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/KeyFinder/PosController.cpp">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/KeyFinder/PosController.h">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/KeyFinder/SubstringFinder.h">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/Utility/Utility.h">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/main.cpp">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
