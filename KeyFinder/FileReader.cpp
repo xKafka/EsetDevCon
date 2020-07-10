@@ -19,11 +19,8 @@ FileReader::FileReader()
 {}
 void FileReader::fileInit(const std::string &fileName) {
 
-    if(m_file->is_open())
-        m_file->close();
-    else
-        m_file->open(fileName);
-
+    m_file->close();
+    m_file->open(fileName);
     m_iterator.clr();
 }
 

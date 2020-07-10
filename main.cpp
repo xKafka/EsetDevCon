@@ -30,6 +30,7 @@ int main(int argc, const char *argv[]) {
         std::string str = queue->getNext();
 
         parser.changePath(str);
+        std::cout << str << '\n';
 
         ParsingResult result = parser.parse();
 

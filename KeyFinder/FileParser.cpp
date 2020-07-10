@@ -38,7 +38,7 @@ ParsingResult FileParser::parse() {
 template<typename F>
 void FileParser::iterateInText(F textIterator) {
 
-    for(;!m_reader.isOnEnd() && m_buffer.bufferSize(); m_reader.iterator() += m_buffer.bufferSize())
+    for(;!m_reader.isOnEnd() && m_buffer.bufferSize(); m_reader.iterator() += m_buffer.bufferSize()) /// if buffer is not loaded or reader reaches the end of file function breaks;
     {
         m_reader.readNextChunkIntoBuffer(m_buffer);
         textIterator();
