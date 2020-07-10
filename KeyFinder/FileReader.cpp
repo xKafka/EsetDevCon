@@ -4,18 +4,26 @@
 #include <iostream>
 #include <algorithm>
 #include "FileReader.h"
-
+/*
 FileReader::FileReader(const std::string &fileName)
         : m_file(std::make_unique<std::fstream>(fileName)),
-          m_iterator()
+          m_iterator{}
 {
-    fileInit(fileName);
+ //   fileInit(fileName);
 }
+*/
 
+FileReader::FileReader()
+    : m_file(std::make_unique<std::fstream>()),
+      m_iterator{}
+{}
 void FileReader::fileInit(const std::string &fileName) {
 
-    m_file->close();
-    m_file->open(fileName);
+    if(m_file->is_open())
+        m_file->close();
+    else
+        m_file->open(fileName);
+
     m_iterator.clr();
 }
 
@@ -79,7 +87,10 @@ std::string FileReader::readPrefix(size_t position, size_t prefSize) {
         prefix.push_back(m_file->peek());
     }
 
-    setPosition(iteratorPosition);
+    m_file->seekp(iteratorPosition);
+
+
+ //   setPosition(iteratorPosition);
 
     return std::move(prefix);
 }

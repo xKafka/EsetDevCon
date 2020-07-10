@@ -122,22 +122,9 @@ CMakeFiles/EsetDevCon.dir/KeyFinder/FileReader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EsetDevCon.dir/KeyFinder/FileReader.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xkafka/CLionProjects/EsetDevCon/KeyFinder/FileReader.cpp -o CMakeFiles/EsetDevCon.dir/KeyFinder/FileReader.cpp.s
 
-CMakeFiles/EsetDevCon.dir/AdressIndexer/AdressIndex.cpp.o: CMakeFiles/EsetDevCon.dir/flags.make
-CMakeFiles/EsetDevCon.dir/AdressIndexer/AdressIndex.cpp.o: ../AdressIndexer/AdressIndex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/EsetDevCon.dir/AdressIndexer/AdressIndex.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EsetDevCon.dir/AdressIndexer/AdressIndex.cpp.o -c /home/xkafka/CLionProjects/EsetDevCon/AdressIndexer/AdressIndex.cpp
-
-CMakeFiles/EsetDevCon.dir/AdressIndexer/AdressIndex.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/EsetDevCon.dir/AdressIndexer/AdressIndex.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/xkafka/CLionProjects/EsetDevCon/AdressIndexer/AdressIndex.cpp > CMakeFiles/EsetDevCon.dir/AdressIndexer/AdressIndex.cpp.i
-
-CMakeFiles/EsetDevCon.dir/AdressIndexer/AdressIndex.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/EsetDevCon.dir/AdressIndexer/AdressIndex.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/xkafka/CLionProjects/EsetDevCon/AdressIndexer/AdressIndex.cpp -o CMakeFiles/EsetDevCon.dir/AdressIndexer/AdressIndex.cpp.s
-
 CMakeFiles/EsetDevCon.dir/KeyFinder/ParsingResult.cpp.o: CMakeFiles/EsetDevCon.dir/flags.make
 CMakeFiles/EsetDevCon.dir/KeyFinder/ParsingResult.cpp.o: ../KeyFinder/ParsingResult.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/EsetDevCon.dir/KeyFinder/ParsingResult.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/EsetDevCon.dir/KeyFinder/ParsingResult.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EsetDevCon.dir/KeyFinder/ParsingResult.cpp.o -c /home/xkafka/CLionProjects/EsetDevCon/KeyFinder/ParsingResult.cpp
 
 CMakeFiles/EsetDevCon.dir/KeyFinder/ParsingResult.cpp.i: cmake_force
@@ -150,7 +137,7 @@ CMakeFiles/EsetDevCon.dir/KeyFinder/ParsingResult.cpp.s: cmake_force
 
 CMakeFiles/EsetDevCon.dir/KeyFinder/PosController.cpp.o: CMakeFiles/EsetDevCon.dir/flags.make
 CMakeFiles/EsetDevCon.dir/KeyFinder/PosController.cpp.o: ../KeyFinder/PosController.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/EsetDevCon.dir/KeyFinder/PosController.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/EsetDevCon.dir/KeyFinder/PosController.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EsetDevCon.dir/KeyFinder/PosController.cpp.o -c /home/xkafka/CLionProjects/EsetDevCon/KeyFinder/PosController.cpp
 
 CMakeFiles/EsetDevCon.dir/KeyFinder/PosController.cpp.i: cmake_force
@@ -163,7 +150,7 @@ CMakeFiles/EsetDevCon.dir/KeyFinder/PosController.cpp.s: cmake_force
 
 CMakeFiles/EsetDevCon.dir/FileSorter/File.cpp.o: CMakeFiles/EsetDevCon.dir/flags.make
 CMakeFiles/EsetDevCon.dir/FileSorter/File.cpp.o: ../FileSorter/File.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/EsetDevCon.dir/FileSorter/File.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/EsetDevCon.dir/FileSorter/File.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EsetDevCon.dir/FileSorter/File.cpp.o -c /home/xkafka/CLionProjects/EsetDevCon/FileSorter/File.cpp
 
 CMakeFiles/EsetDevCon.dir/FileSorter/File.cpp.i: cmake_force
@@ -176,7 +163,7 @@ CMakeFiles/EsetDevCon.dir/FileSorter/File.cpp.s: cmake_force
 
 CMakeFiles/EsetDevCon.dir/FileSorter/AdressQueue.cpp.o: CMakeFiles/EsetDevCon.dir/flags.make
 CMakeFiles/EsetDevCon.dir/FileSorter/AdressQueue.cpp.o: ../FileSorter/AdressQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/EsetDevCon.dir/FileSorter/AdressQueue.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/EsetDevCon.dir/FileSorter/AdressQueue.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EsetDevCon.dir/FileSorter/AdressQueue.cpp.o -c /home/xkafka/CLionProjects/EsetDevCon/FileSorter/AdressQueue.cpp
 
 CMakeFiles/EsetDevCon.dir/FileSorter/AdressQueue.cpp.i: cmake_force
@@ -189,7 +176,7 @@ CMakeFiles/EsetDevCon.dir/FileSorter/AdressQueue.cpp.s: cmake_force
 
 CMakeFiles/EsetDevCon.dir/FileSorter/FTWSorter.cpp.o: CMakeFiles/EsetDevCon.dir/flags.make
 CMakeFiles/EsetDevCon.dir/FileSorter/FTWSorter.cpp.o: ../FileSorter/FTWSorter.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/EsetDevCon.dir/FileSorter/FTWSorter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/EsetDevCon.dir/FileSorter/FTWSorter.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/EsetDevCon.dir/FileSorter/FTWSorter.cpp.o -c /home/xkafka/CLionProjects/EsetDevCon/FileSorter/FTWSorter.cpp
 
 CMakeFiles/EsetDevCon.dir/FileSorter/FTWSorter.cpp.i: cmake_force
@@ -207,7 +194,6 @@ EsetDevCon_OBJECTS = \
 "CMakeFiles/EsetDevCon.dir/Arguments/LimitsException.cpp.o" \
 "CMakeFiles/EsetDevCon.dir/KeyFinder/FileParser.cpp.o" \
 "CMakeFiles/EsetDevCon.dir/KeyFinder/FileReader.cpp.o" \
-"CMakeFiles/EsetDevCon.dir/AdressIndexer/AdressIndex.cpp.o" \
 "CMakeFiles/EsetDevCon.dir/KeyFinder/ParsingResult.cpp.o" \
 "CMakeFiles/EsetDevCon.dir/KeyFinder/PosController.cpp.o" \
 "CMakeFiles/EsetDevCon.dir/FileSorter/File.cpp.o" \
@@ -222,7 +208,6 @@ EsetDevCon: CMakeFiles/EsetDevCon.dir/Arguments/Args.cpp.o
 EsetDevCon: CMakeFiles/EsetDevCon.dir/Arguments/LimitsException.cpp.o
 EsetDevCon: CMakeFiles/EsetDevCon.dir/KeyFinder/FileParser.cpp.o
 EsetDevCon: CMakeFiles/EsetDevCon.dir/KeyFinder/FileReader.cpp.o
-EsetDevCon: CMakeFiles/EsetDevCon.dir/AdressIndexer/AdressIndex.cpp.o
 EsetDevCon: CMakeFiles/EsetDevCon.dir/KeyFinder/ParsingResult.cpp.o
 EsetDevCon: CMakeFiles/EsetDevCon.dir/KeyFinder/PosController.cpp.o
 EsetDevCon: CMakeFiles/EsetDevCon.dir/FileSorter/File.cpp.o
@@ -230,7 +215,7 @@ EsetDevCon: CMakeFiles/EsetDevCon.dir/FileSorter/AdressQueue.cpp.o
 EsetDevCon: CMakeFiles/EsetDevCon.dir/FileSorter/FTWSorter.cpp.o
 EsetDevCon: CMakeFiles/EsetDevCon.dir/build.make
 EsetDevCon: CMakeFiles/EsetDevCon.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable EsetDevCon"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/xkafka/CLionProjects/EsetDevCon/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable EsetDevCon"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/EsetDevCon.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

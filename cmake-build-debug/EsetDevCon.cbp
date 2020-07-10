@@ -82,15 +82,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/AdressIndexer/AdressIndex.cpp">
-			<Option target="EsetDevCon"/>
-		</Unit>
-		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/AdressIndexer/AdressIndex.h">
-			<Option target="EsetDevCon"/>
-		</Unit>
-		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/AdressIndexer/AdressQueue.h">
-			<Option target="EsetDevCon"/>
-		</Unit>
 		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/Arguments/Args.cpp">
 			<Option target="EsetDevCon"/>
 		</Unit>

@@ -16,12 +16,16 @@ using tpl = std::tuple<cString , cString, size_t>;
 struct ParsingResult {
 
     ParsingResult() = default;
+    ParsingResult(ParsingResult &) = default;
+    ParsingResult(ParsingResult &&) = default;
 
     std::vector<tpl> m_data;
 
     void push(cString &pref, cString &suf, size_t pos);
     [[nodiscard]] bool isFound() const;
     auto &at(size_t atPos);
+
+    void print();
 
     static std::ostream &printWithWhiteChars(std::ostream &out, const std::string &src);
     friend std::ostream &operator<<(std::ostream &out, ParsingResult &result);

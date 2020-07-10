@@ -27,12 +27,12 @@ class FileReader {
     //function show EOF
 
 public:
-    FileReader() = default;
+   // FileReader() = default;
     FileReader(FileReader &) = delete;
     FileReader(FileReader &&) = delete;
 
     //construct FileReader and creat unique_ptr on file
-    explicit FileReader(const std::string &fileName);
+    FileReader();
 
     //init next file
     void fileInit(const std::string &fileName);

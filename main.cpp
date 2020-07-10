@@ -9,46 +9,44 @@
 #include "FileSorter/AdressQueue.h"
 #include "FileSorter/FTWSorter.h"
 
+#include <fstream>
+
 //since C++17 filesystem::file_size added ... this codes is built using C++14, which has not such feature
 
 int main(int argc, const char *argv[]) {
 
     const std::string filePath(argv[1]);
-    std::cout << filePath.size() << '\n';
 
+    std::fstream fstr("/home/xkafka/Documents/Test/test.txt");
 
     Arguments::Args args = Arguments::Args::parseArgs(argc, argv);
 
     auto queue = FTWSorter::getQueue(args.path());      /// points to the created filequeue (points to unique_ptr)
 
+    FileParser parser(args.key());
+
     for(const auto &q : *queue)
     {
-        std::cout << queue->getNext() << '\n';
+        std::string str = queue->getNext();
+
+        parser.changePath(str);
+
+        ParsingResult result = parser.parse();
+
+        if(result.isFound()) {
+            std::cout << str << '\n';
+          //  parser.parse().print();
+        }
     }
 
-
-
-
-
 /*
-
-    size_t sum = 0;
-
-    for(auto &qq : AdressIndexer::AdressQueue::files)
-        sum += qq.size;
-
     const std::string key = "time";
 
     FileParser parser("/home/xkafka/Documents/", key);
-*/
 
+    parser.changePath("/home/xkafka/Documents/test.txt");
+    parser.parse();
 
-/*
-    for(auto &qq : AdressIndexer::AdressQueue::files) {
-
-        parser.changePath(qq.path);
-        parser.parse();
-    }
 */
 
     return 0;

@@ -14,17 +14,16 @@ class FileParser {
     FileReader m_reader;
     Buffer m_buffer;
     PosController m_posController;
-    const std::string &m_key;
+    const std::string m_key;
 
     template<typename F> void iterateInText(F textIterator);
     void searchInText(ParsingResult &result);
 
 public:
-    FileParser() = delete;
     FileParser(FileParser &) = delete;
     FileParser(FileParser &&) = delete;
 
-    explicit FileParser(const std::string &fileName, const std::string &key);
+    explicit FileParser(const std::string &key);
 
     void changePath(const std::string &path);
     ParsingResult parse();

@@ -13,8 +13,8 @@ constexpr size_t bufferSize = 2048;
 constexpr size_t prefSize = 3;
 constexpr size_t sufSize = 3;
 
-FileParser::FileParser(const std::string &fileName, const std::string &key)
-    : m_reader(fileName),
+FileParser::FileParser(const std::string &key)
+    : m_reader(),
       m_buffer(bufferSize, key.size() - 1),
       m_key(key),
       m_posController(m_buffer, m_reader)
@@ -38,16 +38,12 @@ ParsingResult FileParser::parse() {
 template<typename F>
 void FileParser::iterateInText(F textIterator) {
 
-    do
+    for(;!m_reader.isOnEnd() && m_buffer.bufferSize(); m_reader.iterator() += m_buffer.bufferSize())
     {
         m_reader.readNextChunkIntoBuffer(m_buffer);
-
         textIterator();
-
         m_buffer.initSwap();
-
-        m_reader.iterator() += m_buffer.bufferSize();
-    }while(!m_reader.isOnEnd());
+    }
 }
 
 void FileParser::searchInText(ParsingResult &result) {
@@ -59,8 +55,8 @@ void FileParser::searchInText(ParsingResult &result) {
                         result
                         );
     });
-
     std::cout << result;
+
 }
 
 void FileParser::processPositions(std::vector<size_t> pos, ParsingResult &result) {
