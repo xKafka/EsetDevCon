@@ -27,7 +27,7 @@ namespace Arguments {
 
         [[nodiscard]] bool isParallel() const { return m_isParallel; }
 
-        Args parseArgs(int argc, const char *arg[]);
+        static Args parseArgs(int argc, const char *arg[]);
 
     };
 }

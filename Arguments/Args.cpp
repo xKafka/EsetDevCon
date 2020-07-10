@@ -17,6 +17,7 @@ namespace Arguments {
 
         std::string path = arg[ArgIndex::Path];
         std::string key = arg[ArgIndex::Key];
+        bool parallel = false;
 
         if(key.length() && key.length() > Limits::inputMaxLength)
             throw LimitsException::BadKeyLength(key);
@@ -26,14 +27,11 @@ namespace Arguments {
             const std::string parallelize = arg[ArgIndex::Option];
 
             if(parallelize == "-p")
-                m_isParallel = true;
+                parallel = true;
             else
                 throw LimitsException::BadOption(parallelize);
         }
 
-        std::cout << key << '\n' << path  << '\n';
-
-
-        return *this;
+        return Args(std::move(key), std::move(path), parallel);
     }
 }

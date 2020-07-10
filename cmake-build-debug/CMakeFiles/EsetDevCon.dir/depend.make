@@ -14,6 +14,18 @@ CMakeFiles/EsetDevCon.dir/Arguments/LimitsException.cpp.o: ../Arguments/Limits.h
 CMakeFiles/EsetDevCon.dir/Arguments/LimitsException.cpp.o: ../Arguments/LimitsException.cpp
 CMakeFiles/EsetDevCon.dir/Arguments/LimitsException.cpp.o: ../Arguments/LimitsException.h
 
+CMakeFiles/EsetDevCon.dir/FileSorter/AdressQueue.cpp.o: ../FileSorter/AdressQueue.cpp
+CMakeFiles/EsetDevCon.dir/FileSorter/AdressQueue.cpp.o: ../FileSorter/AdressQueue.h
+CMakeFiles/EsetDevCon.dir/FileSorter/AdressQueue.cpp.o: ../FileSorter/File.h
+
+CMakeFiles/EsetDevCon.dir/FileSorter/FTWSorter.cpp.o: ../FileSorter/AdressQueue.h
+CMakeFiles/EsetDevCon.dir/FileSorter/FTWSorter.cpp.o: ../FileSorter/FTWSorter.cpp
+CMakeFiles/EsetDevCon.dir/FileSorter/FTWSorter.cpp.o: ../FileSorter/FTWSorter.h
+CMakeFiles/EsetDevCon.dir/FileSorter/FTWSorter.cpp.o: ../FileSorter/File.h
+
+CMakeFiles/EsetDevCon.dir/FileSorter/File.cpp.o: ../FileSorter/File.cpp
+CMakeFiles/EsetDevCon.dir/FileSorter/File.cpp.o: ../FileSorter/File.h
+
 CMakeFiles/EsetDevCon.dir/KeyFinder/FileParser.cpp.o: ../KeyFinder/FileIterator.h
 CMakeFiles/EsetDevCon.dir/KeyFinder/FileParser.cpp.o: ../KeyFinder/FileParser.cpp
 CMakeFiles/EsetDevCon.dir/KeyFinder/FileParser.cpp.o: ../KeyFinder/FileParser.h
@@ -39,8 +51,10 @@ CMakeFiles/EsetDevCon.dir/KeyFinder/PosController.cpp.o: ../KeyFinder/ParsingRes
 CMakeFiles/EsetDevCon.dir/KeyFinder/PosController.cpp.o: ../KeyFinder/PosController.cpp
 CMakeFiles/EsetDevCon.dir/KeyFinder/PosController.cpp.o: ../KeyFinder/PosController.h
 
-CMakeFiles/EsetDevCon.dir/main.cpp.o: ../AdressIndexer/AdressIndex.h
-CMakeFiles/EsetDevCon.dir/main.cpp.o: ../AdressIndexer/AdressQueue.h
+CMakeFiles/EsetDevCon.dir/main.cpp.o: ../Arguments/Args.h
+CMakeFiles/EsetDevCon.dir/main.cpp.o: ../FileSorter/AdressQueue.h
+CMakeFiles/EsetDevCon.dir/main.cpp.o: ../FileSorter/FTWSorter.h
+CMakeFiles/EsetDevCon.dir/main.cpp.o: ../FileSorter/File.h
 CMakeFiles/EsetDevCon.dir/main.cpp.o: ../KeyFinder/FileIterator.h
 CMakeFiles/EsetDevCon.dir/main.cpp.o: ../KeyFinder/FileParser.h
 CMakeFiles/EsetDevCon.dir/main.cpp.o: ../KeyFinder/FileReader.h

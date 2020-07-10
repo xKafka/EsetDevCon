@@ -6,33 +6,47 @@
 
 #IncludeRegexTransform: 
 
-/home/xkafka/CLionProjects/EsetDevCon/AdressIndexer/AdressIndex.h
+/home/xkafka/CLionProjects/EsetDevCon/Arguments/Args.h
 string
+-
+
+/home/xkafka/CLionProjects/EsetDevCon/FileSorter/AdressQueue.cpp
+AdressQueue.h
+/home/xkafka/CLionProjects/EsetDevCon/FileSorter/AdressQueue.h
+utility
+-
+
+/home/xkafka/CLionProjects/EsetDevCon/FileSorter/AdressQueue.h
+string
+-
+memory
+-
+utility
+-
+vector
 -
 iostream
 -
-
-/home/xkafka/CLionProjects/EsetDevCon/AdressIndexer/AdressQueue.h
-queue
+File.h
+/home/xkafka/CLionProjects/EsetDevCon/FileSorter/File.h
+ftw.h
 -
-AdressIndex.h
-/home/xkafka/CLionProjects/EsetDevCon/AdressIndexer/AdressIndex.h
+
+/home/xkafka/CLionProjects/EsetDevCon/FileSorter/FTWSorter.cpp
+FTWSorter.h
+/home/xkafka/CLionProjects/EsetDevCon/FileSorter/FTWSorter.h
+
+/home/xkafka/CLionProjects/EsetDevCon/FileSorter/FTWSorter.h
+AdressQueue.h
+/home/xkafka/CLionProjects/EsetDevCon/FileSorter/AdressQueue.h
+
+/home/xkafka/CLionProjects/EsetDevCon/FileSorter/File.h
+string
+-
 
 /home/xkafka/CLionProjects/EsetDevCon/KeyFinder/FileIterator.h
 cstddef
 -
-
-/home/xkafka/CLionProjects/EsetDevCon/KeyFinder/FileParser.cpp
-algorithm
--
-iostream
--
-SubstringFinder.h
-/home/xkafka/CLionProjects/EsetDevCon/KeyFinder/SubstringFinder.h
-FileParser.h
-/home/xkafka/CLionProjects/EsetDevCon/KeyFinder/FileParser.h
-PosController.h
-/home/xkafka/CLionProjects/EsetDevCon/KeyFinder/PosController.h
 
 /home/xkafka/CLionProjects/EsetDevCon/KeyFinder/FileParser.h
 FileReader.h
@@ -76,10 +90,6 @@ tuple
 queue
 -
 
-/home/xkafka/CLionProjects/EsetDevCon/KeyFinder/PosController.cpp
-PosController.h
-/home/xkafka/CLionProjects/EsetDevCon/KeyFinder/PosController.h
-
 /home/xkafka/CLionProjects/EsetDevCon/KeyFinder/PosController.h
 ParserBuffer/ParserBuffer.h
 /home/xkafka/CLionProjects/EsetDevCon/KeyFinder/ParserBuffer/ParserBuffer.h
@@ -87,12 +97,6 @@ FileReader.h
 /home/xkafka/CLionProjects/EsetDevCon/KeyFinder/FileReader.h
 FileIterator.h
 /home/xkafka/CLionProjects/EsetDevCon/KeyFinder/FileIterator.h
-
-/home/xkafka/CLionProjects/EsetDevCon/KeyFinder/SubstringFinder.h
-FileParser.h
-/home/xkafka/CLionProjects/EsetDevCon/KeyFinder/FileParser.h
-algorithm
--
 
 /home/xkafka/CLionProjects/EsetDevCon/main.cpp
 iostream
@@ -103,10 +107,12 @@ sys/stat.h
 -
 ftw.h
 -
-AdressIndexer/AdressIndex.h
-/home/xkafka/CLionProjects/EsetDevCon/AdressIndexer/AdressIndex.h
-AdressIndexer/AdressQueue.h
-/home/xkafka/CLionProjects/EsetDevCon/AdressIndexer/AdressQueue.h
 KeyFinder/FileParser.h
 /home/xkafka/CLionProjects/EsetDevCon/KeyFinder/FileParser.h
+Arguments/Args.h
+/home/xkafka/CLionProjects/EsetDevCon/Arguments/Args.h
+FileSorter/AdressQueue.h
+/home/xkafka/CLionProjects/EsetDevCon/FileSorter/AdressQueue.h
+FileSorter/FTWSorter.h
+/home/xkafka/CLionProjects/EsetDevCon/FileSorter/FTWSorter.h
 

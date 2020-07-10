@@ -204,32 +204,86 @@ Arguments/LimitsException.cpp.s:
 	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/Arguments/LimitsException.cpp.s
 .PHONY : Arguments/LimitsException.cpp.s
 
-FileSorter/Directory.o: FileSorter/Directory.cpp.o
+FileSorter/AdressQueue.o: FileSorter/AdressQueue.cpp.o
 
-.PHONY : FileSorter/Directory.o
+.PHONY : FileSorter/AdressQueue.o
 
 # target to build an object file
-FileSorter/Directory.cpp.o:
-	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/FileSorter/Directory.cpp.o
-.PHONY : FileSorter/Directory.cpp.o
+FileSorter/AdressQueue.cpp.o:
+	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/FileSorter/AdressQueue.cpp.o
+.PHONY : FileSorter/AdressQueue.cpp.o
 
-FileSorter/Directory.i: FileSorter/Directory.cpp.i
+FileSorter/AdressQueue.i: FileSorter/AdressQueue.cpp.i
 
-.PHONY : FileSorter/Directory.i
+.PHONY : FileSorter/AdressQueue.i
 
 # target to preprocess a source file
-FileSorter/Directory.cpp.i:
-	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/FileSorter/Directory.cpp.i
-.PHONY : FileSorter/Directory.cpp.i
+FileSorter/AdressQueue.cpp.i:
+	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/FileSorter/AdressQueue.cpp.i
+.PHONY : FileSorter/AdressQueue.cpp.i
 
-FileSorter/Directory.s: FileSorter/Directory.cpp.s
+FileSorter/AdressQueue.s: FileSorter/AdressQueue.cpp.s
 
-.PHONY : FileSorter/Directory.s
+.PHONY : FileSorter/AdressQueue.s
 
 # target to generate assembly for a file
-FileSorter/Directory.cpp.s:
-	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/FileSorter/Directory.cpp.s
-.PHONY : FileSorter/Directory.cpp.s
+FileSorter/AdressQueue.cpp.s:
+	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/FileSorter/AdressQueue.cpp.s
+.PHONY : FileSorter/AdressQueue.cpp.s
+
+FileSorter/FTWSorter.o: FileSorter/FTWSorter.cpp.o
+
+.PHONY : FileSorter/FTWSorter.o
+
+# target to build an object file
+FileSorter/FTWSorter.cpp.o:
+	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/FileSorter/FTWSorter.cpp.o
+.PHONY : FileSorter/FTWSorter.cpp.o
+
+FileSorter/FTWSorter.i: FileSorter/FTWSorter.cpp.i
+
+.PHONY : FileSorter/FTWSorter.i
+
+# target to preprocess a source file
+FileSorter/FTWSorter.cpp.i:
+	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/FileSorter/FTWSorter.cpp.i
+.PHONY : FileSorter/FTWSorter.cpp.i
+
+FileSorter/FTWSorter.s: FileSorter/FTWSorter.cpp.s
+
+.PHONY : FileSorter/FTWSorter.s
+
+# target to generate assembly for a file
+FileSorter/FTWSorter.cpp.s:
+	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/FileSorter/FTWSorter.cpp.s
+.PHONY : FileSorter/FTWSorter.cpp.s
+
+FileSorter/File.o: FileSorter/File.cpp.o
+
+.PHONY : FileSorter/File.o
+
+# target to build an object file
+FileSorter/File.cpp.o:
+	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/FileSorter/File.cpp.o
+.PHONY : FileSorter/File.cpp.o
+
+FileSorter/File.i: FileSorter/File.cpp.i
+
+.PHONY : FileSorter/File.i
+
+# target to preprocess a source file
+FileSorter/File.cpp.i:
+	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/FileSorter/File.cpp.i
+.PHONY : FileSorter/File.cpp.i
+
+FileSorter/File.s: FileSorter/File.cpp.s
+
+.PHONY : FileSorter/File.s
+
+# target to generate assembly for a file
+FileSorter/File.cpp.s:
+	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/FileSorter/File.cpp.s
+.PHONY : FileSorter/File.cpp.s
 
 KeyFinder/FileParser.o: KeyFinder/FileParser.cpp.o
 
@@ -384,9 +438,15 @@ help:
 	@echo "... Arguments/LimitsException.o"
 	@echo "... Arguments/LimitsException.i"
 	@echo "... Arguments/LimitsException.s"
-	@echo "... FileSorter/Directory.o"
-	@echo "... FileSorter/Directory.i"
-	@echo "... FileSorter/Directory.s"
+	@echo "... FileSorter/AdressQueue.o"
+	@echo "... FileSorter/AdressQueue.i"
+	@echo "... FileSorter/AdressQueue.s"
+	@echo "... FileSorter/FTWSorter.o"
+	@echo "... FileSorter/FTWSorter.i"
+	@echo "... FileSorter/FTWSorter.s"
+	@echo "... FileSorter/File.o"
+	@echo "... FileSorter/File.i"
+	@echo "... FileSorter/File.s"
 	@echo "... KeyFinder/FileParser.o"
 	@echo "... KeyFinder/FileParser.i"
 	@echo "... KeyFinder/FileParser.s"

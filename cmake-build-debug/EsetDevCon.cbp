@@ -109,13 +109,22 @@
 		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/Arguments/LimitsException.h">
 			<Option target="EsetDevCon"/>
 		</Unit>
-		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/FileSorter/AdressParser.h">
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/FileSorter/AdressQueue.cpp">
 			<Option target="EsetDevCon"/>
 		</Unit>
-		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/FileSorter/Directory.cpp">
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/FileSorter/AdressQueue.h">
 			<Option target="EsetDevCon"/>
 		</Unit>
-		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/FileSorter/Directory.h">
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/FileSorter/FTWSorter.cpp">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/FileSorter/FTWSorter.h">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/FileSorter/File.cpp">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/FileSorter/File.h">
 			<Option target="EsetDevCon"/>
 		</Unit>
 		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/KeyFinder/FileIterator.h">

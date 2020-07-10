@@ -25,7 +25,7 @@ namespace Arguments {
         std::stringstream stream;
 
         stream << "Key \"" << key << "\" with length " << key.length() << " is either empty, or too long.\n"
-               << 'Maximum allowed key length is ' << Arguments::Limits::inputMaxLength;
+               << "Maximum allowed key length is " << Arguments::Limits::inputMaxLength;
 
         return LimitsException(stream.str());
     }

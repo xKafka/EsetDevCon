@@ -14,6 +14,18 @@ CMakeFiles/EsetDevCon.dir/Arguments/LimitsException.cpp.o
  /home/xkafka/CLionProjects/EsetDevCon/Arguments/Limits.h
  /home/xkafka/CLionProjects/EsetDevCon/Arguments/LimitsException.cpp
  /home/xkafka/CLionProjects/EsetDevCon/Arguments/LimitsException.h
+CMakeFiles/EsetDevCon.dir/FileSorter/AdressQueue.cpp.o
+ /home/xkafka/CLionProjects/EsetDevCon/FileSorter/AdressQueue.cpp
+ /home/xkafka/CLionProjects/EsetDevCon/FileSorter/AdressQueue.h
+ /home/xkafka/CLionProjects/EsetDevCon/FileSorter/File.h
+CMakeFiles/EsetDevCon.dir/FileSorter/FTWSorter.cpp.o
+ /home/xkafka/CLionProjects/EsetDevCon/FileSorter/AdressQueue.h
+ /home/xkafka/CLionProjects/EsetDevCon/FileSorter/FTWSorter.cpp
+ /home/xkafka/CLionProjects/EsetDevCon/FileSorter/FTWSorter.h
+ /home/xkafka/CLionProjects/EsetDevCon/FileSorter/File.h
+CMakeFiles/EsetDevCon.dir/FileSorter/File.cpp.o
+ /home/xkafka/CLionProjects/EsetDevCon/FileSorter/File.cpp
+ /home/xkafka/CLionProjects/EsetDevCon/FileSorter/File.h
 CMakeFiles/EsetDevCon.dir/KeyFinder/FileParser.cpp.o
  /home/xkafka/CLionProjects/EsetDevCon/KeyFinder/FileIterator.h
  /home/xkafka/CLionProjects/EsetDevCon/KeyFinder/FileParser.cpp
@@ -40,8 +52,10 @@ CMakeFiles/EsetDevCon.dir/KeyFinder/PosController.cpp.o
  /home/xkafka/CLionProjects/EsetDevCon/KeyFinder/PosController.cpp
  /home/xkafka/CLionProjects/EsetDevCon/KeyFinder/PosController.h
 CMakeFiles/EsetDevCon.dir/main.cpp.o
- /home/xkafka/CLionProjects/EsetDevCon/AdressIndexer/AdressIndex.h
- /home/xkafka/CLionProjects/EsetDevCon/AdressIndexer/AdressQueue.h
+ /home/xkafka/CLionProjects/EsetDevCon/Arguments/Args.h
+ /home/xkafka/CLionProjects/EsetDevCon/FileSorter/AdressQueue.h
+ /home/xkafka/CLionProjects/EsetDevCon/FileSorter/FTWSorter.h
+ /home/xkafka/CLionProjects/EsetDevCon/FileSorter/File.h
  /home/xkafka/CLionProjects/EsetDevCon/KeyFinder/FileIterator.h
  /home/xkafka/CLionProjects/EsetDevCon/KeyFinder/FileParser.h
  /home/xkafka/CLionProjects/EsetDevCon/KeyFinder/FileReader.h
