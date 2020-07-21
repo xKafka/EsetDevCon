@@ -33,10 +33,10 @@ std::ostream &operator<<(std::ostream &out, ParsingResult &result)
 
     for(const auto&[pref, suf, pos] : result.m_data)
     {
-        out <<  "Position:\n" << pos <<
-                "\nPrefix:\n";
+        out <<  "<position>: " << pos <<
+                      "\n<prefix>: ";
         ParsingResult::printWithWhiteChars(out, pref);
-        out <<  "\nSuffix:\n";
+        out <<  "\n<suffix>: ";
         ParsingResult::printWithWhiteChars(out, suf);
         out << '\n';
     }
@@ -56,16 +56,3 @@ auto &ParsingResult::at(size_t atPos) {
     return m_data.at(atPos);
 }
 
-void ParsingResult::print() {
-    std::cout << "Result: " << m_data.size() << '\n';
-
-    for(const auto&[pref, suf, pos] : m_data)
-    {
-        std::cout <<  "Position:\n" << pos <<
-            "\nPrefix:\n";
-        ParsingResult::printWithWhiteChars(std::cout, pref);
-        std::cout <<  "\nSuffix:\n";
-        ParsingResult::printWithWhiteChars(std::cout, suf);
-        std::cout << '\n';
-    }
-}

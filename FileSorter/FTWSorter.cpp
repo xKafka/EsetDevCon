@@ -8,7 +8,7 @@ int FTWSorter::nftwfunc(const char filePath[], const struct stat *stat, int file
 
     switch (fileType) {
         case FTW_F:
-            p_adressQueue->push(filePath + p_adressQueue->rootPath().size(), stat->st_size );
+            p_adressList->push(filePath + p_adressList->rootPath()->size(), stat->st_size);
             break;
 
         case FTW_D:
@@ -19,19 +19,23 @@ int FTWSorter::nftwfunc(const char filePath[], const struct stat *stat, int file
         default:
             return EXIT_FAILURE;
     }
+    //add another cases!!!!
+
 
     return EXIT_SUCCESS;
 }
 
-AdressQueue *FTWSorter::getQueue(const std::string &path) {
-    if (!p_adressQueue)
-        p_adressQueue = std::make_unique<AdressQueue>(path);
+AdressList *FTWSorter::getAdressList(const std::string &path) {
+    if (!p_adressList)
+        p_adressList = std::make_unique<AdressList>(&path);
     else
-        p_adressQueue = {};
+        p_adressList = {};
 
     switch (ftw(path.c_str(), &nftwfunc, depth)) {
         case 0:
-            return p_adressQueue.get();
-
+            return p_adressList.get();
     }
+
+
+    // add another cases!!!!
 }

@@ -100,19 +100,16 @@
 		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/Arguments/LimitsException.h">
 			<Option target="EsetDevCon"/>
 		</Unit>
-		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/FileSorter/AdressQueue.cpp">
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/FileSorter/AdressList.cpp">
 			<Option target="EsetDevCon"/>
 		</Unit>
-		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/FileSorter/AdressQueue.h">
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/FileSorter/AdressList.h">
 			<Option target="EsetDevCon"/>
 		</Unit>
 		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/FileSorter/FTWSorter.cpp">
 			<Option target="EsetDevCon"/>
 		</Unit>
 		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/FileSorter/FTWSorter.h">
-			<Option target="EsetDevCon"/>
-		</Unit>
-		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/FileSorter/File.cpp">
 			<Option target="EsetDevCon"/>
 		</Unit>
 		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/FileSorter/File.h">
@@ -149,6 +146,33 @@
 			<Option target="EsetDevCon"/>
 		</Unit>
 		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/KeyFinder/SubstringFinder.h">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/ParsingScheduler/ParallelQueueCreator/AdressHolder.h">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/ParsingScheduler/ParallelQueueCreator/ParallelQueue.cpp">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/ParsingScheduler/ParallelQueueCreator/ParallelQueue.h">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/ParsingScheduler/ParallelQueueCreator/ParallelQueueCreator.h">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/ParsingScheduler/ParallelQueueCreator/ParallelQueueMaker.cpp">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/ParsingScheduler/ParallelScheduler/ThreadPool.cpp">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/ParsingScheduler/ParallelScheduler/ThreadPool.h">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/ParsingScheduler/ParsingScheduler.cpp">
+			<Option target="EsetDevCon"/>
+		</Unit>
+		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/ParsingScheduler/ParsingScheduler.h">
 			<Option target="EsetDevCon"/>
 		</Unit>
 		<Unit filename="/home/xkafka/CLionProjects/EsetDevCon/Utility/Utility.h">

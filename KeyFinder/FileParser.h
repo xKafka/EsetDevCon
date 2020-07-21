@@ -28,7 +28,7 @@ public:
     void changePath(const std::string &path);
     ParsingResult parse();
 
-    void processPositions(std::vector<size_t> pos, ParsingResult &result);
+    void processPositions(std::vector<size_t> &pos, ParsingResult &result);
 };
 
 

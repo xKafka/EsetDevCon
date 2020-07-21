@@ -48,18 +48,17 @@ void FileParser::iterateInText(F textIterator) {
 
 void FileParser::searchInText(ParsingResult &result) {
 
-    iterateInText([this, &result]()
-    {
-        processPositions(
-                        SubStringFinder::find(m_buffer.begin(), m_buffer.end(), m_key),
-                        result
-                        );
-    });
-    std::cout << result;
+    std::vector<size_t> positions;
 
+    iterateInText([this, &result, &positions]()
+    {
+        positions = std::move(SubStringFinder::find(m_buffer.begin(), m_buffer.end(), m_key));
+
+        processPositions( positions, result);
+    });
 }
 
-void FileParser::processPositions(std::vector<size_t> pos, ParsingResult &result) {
+void FileParser::processPositions(std::vector<size_t> &pos, ParsingResult &result) {
 
     if(pos.empty())
         return;

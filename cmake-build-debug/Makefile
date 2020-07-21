@@ -177,32 +177,32 @@ Arguments/LimitsException.cpp.s:
 	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/Arguments/LimitsException.cpp.s
 .PHONY : Arguments/LimitsException.cpp.s
 
-FileSorter/AdressQueue.o: FileSorter/AdressQueue.cpp.o
+FileSorter/AdressList.o: FileSorter/AdressList.cpp.o
 
-.PHONY : FileSorter/AdressQueue.o
+.PHONY : FileSorter/AdressList.o
 
 # target to build an object file
-FileSorter/AdressQueue.cpp.o:
-	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/FileSorter/AdressQueue.cpp.o
-.PHONY : FileSorter/AdressQueue.cpp.o
+FileSorter/AdressList.cpp.o:
+	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/FileSorter/AdressList.cpp.o
+.PHONY : FileSorter/AdressList.cpp.o
 
-FileSorter/AdressQueue.i: FileSorter/AdressQueue.cpp.i
+FileSorter/AdressList.i: FileSorter/AdressList.cpp.i
 
-.PHONY : FileSorter/AdressQueue.i
+.PHONY : FileSorter/AdressList.i
 
 # target to preprocess a source file
-FileSorter/AdressQueue.cpp.i:
-	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/FileSorter/AdressQueue.cpp.i
-.PHONY : FileSorter/AdressQueue.cpp.i
+FileSorter/AdressList.cpp.i:
+	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/FileSorter/AdressList.cpp.i
+.PHONY : FileSorter/AdressList.cpp.i
 
-FileSorter/AdressQueue.s: FileSorter/AdressQueue.cpp.s
+FileSorter/AdressList.s: FileSorter/AdressList.cpp.s
 
-.PHONY : FileSorter/AdressQueue.s
+.PHONY : FileSorter/AdressList.s
 
 # target to generate assembly for a file
-FileSorter/AdressQueue.cpp.s:
-	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/FileSorter/AdressQueue.cpp.s
-.PHONY : FileSorter/AdressQueue.cpp.s
+FileSorter/AdressList.cpp.s:
+	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/FileSorter/AdressList.cpp.s
+.PHONY : FileSorter/AdressList.cpp.s
 
 FileSorter/FTWSorter.o: FileSorter/FTWSorter.cpp.o
 
@@ -230,33 +230,6 @@ FileSorter/FTWSorter.s: FileSorter/FTWSorter.cpp.s
 FileSorter/FTWSorter.cpp.s:
 	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/FileSorter/FTWSorter.cpp.s
 .PHONY : FileSorter/FTWSorter.cpp.s
-
-FileSorter/File.o: FileSorter/File.cpp.o
-
-.PHONY : FileSorter/File.o
-
-# target to build an object file
-FileSorter/File.cpp.o:
-	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/FileSorter/File.cpp.o
-.PHONY : FileSorter/File.cpp.o
-
-FileSorter/File.i: FileSorter/File.cpp.i
-
-.PHONY : FileSorter/File.i
-
-# target to preprocess a source file
-FileSorter/File.cpp.i:
-	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/FileSorter/File.cpp.i
-.PHONY : FileSorter/File.cpp.i
-
-FileSorter/File.s: FileSorter/File.cpp.s
-
-.PHONY : FileSorter/File.s
-
-# target to generate assembly for a file
-FileSorter/File.cpp.s:
-	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/FileSorter/File.cpp.s
-.PHONY : FileSorter/File.cpp.s
 
 KeyFinder/FileParser.o: KeyFinder/FileParser.cpp.o
 
@@ -366,6 +339,114 @@ KeyFinder/PosController.cpp.s:
 	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/KeyFinder/PosController.cpp.s
 .PHONY : KeyFinder/PosController.cpp.s
 
+ParsingScheduler/ParallelQueueCreator/ParallelQueue.o: ParsingScheduler/ParallelQueueCreator/ParallelQueue.cpp.o
+
+.PHONY : ParsingScheduler/ParallelQueueCreator/ParallelQueue.o
+
+# target to build an object file
+ParsingScheduler/ParallelQueueCreator/ParallelQueue.cpp.o:
+	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/ParsingScheduler/ParallelQueueCreator/ParallelQueue.cpp.o
+.PHONY : ParsingScheduler/ParallelQueueCreator/ParallelQueue.cpp.o
+
+ParsingScheduler/ParallelQueueCreator/ParallelQueue.i: ParsingScheduler/ParallelQueueCreator/ParallelQueue.cpp.i
+
+.PHONY : ParsingScheduler/ParallelQueueCreator/ParallelQueue.i
+
+# target to preprocess a source file
+ParsingScheduler/ParallelQueueCreator/ParallelQueue.cpp.i:
+	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/ParsingScheduler/ParallelQueueCreator/ParallelQueue.cpp.i
+.PHONY : ParsingScheduler/ParallelQueueCreator/ParallelQueue.cpp.i
+
+ParsingScheduler/ParallelQueueCreator/ParallelQueue.s: ParsingScheduler/ParallelQueueCreator/ParallelQueue.cpp.s
+
+.PHONY : ParsingScheduler/ParallelQueueCreator/ParallelQueue.s
+
+# target to generate assembly for a file
+ParsingScheduler/ParallelQueueCreator/ParallelQueue.cpp.s:
+	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/ParsingScheduler/ParallelQueueCreator/ParallelQueue.cpp.s
+.PHONY : ParsingScheduler/ParallelQueueCreator/ParallelQueue.cpp.s
+
+ParsingScheduler/ParallelQueueCreator/ParallelQueueMaker.o: ParsingScheduler/ParallelQueueCreator/ParallelQueueMaker.cpp.o
+
+.PHONY : ParsingScheduler/ParallelQueueCreator/ParallelQueueMaker.o
+
+# target to build an object file
+ParsingScheduler/ParallelQueueCreator/ParallelQueueMaker.cpp.o:
+	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/ParsingScheduler/ParallelQueueCreator/ParallelQueueMaker.cpp.o
+.PHONY : ParsingScheduler/ParallelQueueCreator/ParallelQueueMaker.cpp.o
+
+ParsingScheduler/ParallelQueueCreator/ParallelQueueMaker.i: ParsingScheduler/ParallelQueueCreator/ParallelQueueMaker.cpp.i
+
+.PHONY : ParsingScheduler/ParallelQueueCreator/ParallelQueueMaker.i
+
+# target to preprocess a source file
+ParsingScheduler/ParallelQueueCreator/ParallelQueueMaker.cpp.i:
+	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/ParsingScheduler/ParallelQueueCreator/ParallelQueueMaker.cpp.i
+.PHONY : ParsingScheduler/ParallelQueueCreator/ParallelQueueMaker.cpp.i
+
+ParsingScheduler/ParallelQueueCreator/ParallelQueueMaker.s: ParsingScheduler/ParallelQueueCreator/ParallelQueueMaker.cpp.s
+
+.PHONY : ParsingScheduler/ParallelQueueCreator/ParallelQueueMaker.s
+
+# target to generate assembly for a file
+ParsingScheduler/ParallelQueueCreator/ParallelQueueMaker.cpp.s:
+	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/ParsingScheduler/ParallelQueueCreator/ParallelQueueMaker.cpp.s
+.PHONY : ParsingScheduler/ParallelQueueCreator/ParallelQueueMaker.cpp.s
+
+ParsingScheduler/ParallelScheduler/ThreadPool.o: ParsingScheduler/ParallelScheduler/ThreadPool.cpp.o
+
+.PHONY : ParsingScheduler/ParallelScheduler/ThreadPool.o
+
+# target to build an object file
+ParsingScheduler/ParallelScheduler/ThreadPool.cpp.o:
+	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/ParsingScheduler/ParallelScheduler/ThreadPool.cpp.o
+.PHONY : ParsingScheduler/ParallelScheduler/ThreadPool.cpp.o
+
+ParsingScheduler/ParallelScheduler/ThreadPool.i: ParsingScheduler/ParallelScheduler/ThreadPool.cpp.i
+
+.PHONY : ParsingScheduler/ParallelScheduler/ThreadPool.i
+
+# target to preprocess a source file
+ParsingScheduler/ParallelScheduler/ThreadPool.cpp.i:
+	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/ParsingScheduler/ParallelScheduler/ThreadPool.cpp.i
+.PHONY : ParsingScheduler/ParallelScheduler/ThreadPool.cpp.i
+
+ParsingScheduler/ParallelScheduler/ThreadPool.s: ParsingScheduler/ParallelScheduler/ThreadPool.cpp.s
+
+.PHONY : ParsingScheduler/ParallelScheduler/ThreadPool.s
+
+# target to generate assembly for a file
+ParsingScheduler/ParallelScheduler/ThreadPool.cpp.s:
+	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/ParsingScheduler/ParallelScheduler/ThreadPool.cpp.s
+.PHONY : ParsingScheduler/ParallelScheduler/ThreadPool.cpp.s
+
+ParsingScheduler/ParsingScheduler.o: ParsingScheduler/ParsingScheduler.cpp.o
+
+.PHONY : ParsingScheduler/ParsingScheduler.o
+
+# target to build an object file
+ParsingScheduler/ParsingScheduler.cpp.o:
+	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/ParsingScheduler/ParsingScheduler.cpp.o
+.PHONY : ParsingScheduler/ParsingScheduler.cpp.o
+
+ParsingScheduler/ParsingScheduler.i: ParsingScheduler/ParsingScheduler.cpp.i
+
+.PHONY : ParsingScheduler/ParsingScheduler.i
+
+# target to preprocess a source file
+ParsingScheduler/ParsingScheduler.cpp.i:
+	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/ParsingScheduler/ParsingScheduler.cpp.i
+.PHONY : ParsingScheduler/ParsingScheduler.cpp.i
+
+ParsingScheduler/ParsingScheduler.s: ParsingScheduler/ParsingScheduler.cpp.s
+
+.PHONY : ParsingScheduler/ParsingScheduler.s
+
+# target to generate assembly for a file
+ParsingScheduler/ParsingScheduler.cpp.s:
+	$(MAKE) -f CMakeFiles/EsetDevCon.dir/build.make CMakeFiles/EsetDevCon.dir/ParsingScheduler/ParsingScheduler.cpp.s
+.PHONY : ParsingScheduler/ParsingScheduler.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -408,15 +489,12 @@ help:
 	@echo "... Arguments/LimitsException.o"
 	@echo "... Arguments/LimitsException.i"
 	@echo "... Arguments/LimitsException.s"
-	@echo "... FileSorter/AdressQueue.o"
-	@echo "... FileSorter/AdressQueue.i"
-	@echo "... FileSorter/AdressQueue.s"
+	@echo "... FileSorter/AdressList.o"
+	@echo "... FileSorter/AdressList.i"
+	@echo "... FileSorter/AdressList.s"
 	@echo "... FileSorter/FTWSorter.o"
 	@echo "... FileSorter/FTWSorter.i"
 	@echo "... FileSorter/FTWSorter.s"
-	@echo "... FileSorter/File.o"
-	@echo "... FileSorter/File.i"
-	@echo "... FileSorter/File.s"
 	@echo "... KeyFinder/FileParser.o"
 	@echo "... KeyFinder/FileParser.i"
 	@echo "... KeyFinder/FileParser.s"
@@ -429,6 +507,18 @@ help:
 	@echo "... KeyFinder/PosController.o"
 	@echo "... KeyFinder/PosController.i"
 	@echo "... KeyFinder/PosController.s"
+	@echo "... ParsingScheduler/ParallelQueueCreator/ParallelQueue.o"
+	@echo "... ParsingScheduler/ParallelQueueCreator/ParallelQueue.i"
+	@echo "... ParsingScheduler/ParallelQueueCreator/ParallelQueue.s"
+	@echo "... ParsingScheduler/ParallelQueueCreator/ParallelQueueMaker.o"
+	@echo "... ParsingScheduler/ParallelQueueCreator/ParallelQueueMaker.i"
+	@echo "... ParsingScheduler/ParallelQueueCreator/ParallelQueueMaker.s"
+	@echo "... ParsingScheduler/ParallelScheduler/ThreadPool.o"
+	@echo "... ParsingScheduler/ParallelScheduler/ThreadPool.i"
+	@echo "... ParsingScheduler/ParallelScheduler/ThreadPool.s"
+	@echo "... ParsingScheduler/ParsingScheduler.o"
+	@echo "... ParsingScheduler/ParsingScheduler.i"
+	@echo "... ParsingScheduler/ParsingScheduler.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

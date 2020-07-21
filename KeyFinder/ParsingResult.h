@@ -25,8 +25,6 @@ struct ParsingResult {
     [[nodiscard]] bool isFound() const;
     auto &at(size_t atPos);
 
-    void print();
-
     static std::ostream &printWithWhiteChars(std::ostream &out, const std::string &src);
     friend std::ostream &operator<<(std::ostream &out, ParsingResult &result);
 };

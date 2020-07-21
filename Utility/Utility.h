@@ -5,6 +5,9 @@
 #ifndef ESETDEVCON_UTILITY_H
 #define ESETDEVCON_UTILITY_H
 
+#include <cstddef>
+#include <map>
+#include <vector>
 
 namespace Utility {
 
